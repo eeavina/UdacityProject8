@@ -1,3 +1,64 @@
+# UdacityProject
+## Udacity-Google Nanodegree Project / Building with React
+Neighborhood Maps (React)
+
+# 1 out of 5 modules
+* Web Foundations
+* Web Programming with JavaScript
+* Exploring JS - Objects, Tools and Testing
+* Front-End Applications
+* Building with React
+
+# Project Goal
+* Build a React application with Google Maps API and another 3rd pary API (here Flickr)
+
+# Project Specification:
+## Interface Design
+* Responsiveness
+* Usability
+## Application Functionality
+* Location Filter
+* List View
+* Map and Markers
+## Asynchronous Data Usage
+* Asynchronous API Requests
+* Error Handling
+## Documentation
+* README
+* Comments
+## Location Details Functionality
+* Additional Location Data
+* Error Free
+* Usability
+## Accessibility
+* Focus
+* Site elements are defined semantically
+* Accessible Images
+## Offline Use
+* Service Worker
+## Application Architecture
+* Proper Use of React
+
+# Steps to run the application
+* Fork or clone my repository that is available at https://github.com/eeavina/UdacityProject8
+* Alternatively, download it as a zip file
+* Use the following command to install npm 'npm install'
+* Use the following command to run the server 'npm start'
+* For developing purposes, you might want to download google-maps-react
+* Enjoy the application
+
+# Contributing
+This repository used a starter code that was provided for _all_ Udacity students. I should not accept any pull requests. No thank you, but thank you.
+
+# Resources used and greatly appreciated
+* Knowledge forum @ https://knowledge.udacity.com/
+* Own codes from previous projects that you will find under github.com/eeavina 
+* Additional webinars or resoures:
+* 
+
+
+###Default instructions======================================================================
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
