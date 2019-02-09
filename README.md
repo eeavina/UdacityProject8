@@ -51,10 +51,29 @@ Neighborhood Maps (React)
 This repository used a starter code that was provided for _all_ Udacity students. I should not accept any pull requests. No thank you, but thank you.
 
 # Resources used and greatly appreciated
+* Udacity-Google Front-End Nanodegree Program
 * Knowledge forum @ https://knowledge.udacity.com/
-* Own codes from previous projects that you will find under github.com/eeavina 
+* Own codes from previous projects that you will find @ github.com/eeavina 
+* Udacity tutorials: https://github.com/udacity/ud864
 * Additional webinars or resoures:
-* 
+* Google Map React Component Tutorial: https://www.npmjs.com/package/google-maps-react
+* Adding a Google Map with a Marker to Your Website: https://developers.google.com/maps/documentation/javascript/adding-a-google-map
+* React Google Maps style guide: https://tomchentw.github.io/react-google-maps/
+* Google Maps React tutorial: https://scotch.io/tutorials/react-apps-with-the-google-maps-api-and-google-maps-react
+* WAI-ARIA Roles: https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles
+* Semantic Markup: https://html.com/semantic-markup/
+* Semantic Elements: https://www.w3schools.com/html/html5_semantic_elements.asp
+* Thermal baths of Budapest: https://hu.wikipedia.org/wiki/Budapest_gy%C3%B3gyf%C3%BCrd%C5%91i
+* Flickr API: https://www.flickr.com/services/apps/create/
+* React Programming - Flickr API: https://www.youtube.com/watch?reload=9&v=RkXotG7YUek
+* ColorHexa: https://www.colorhexa.com/f55649
+* Encycolorpedia: https://encycolorpedia.com/293133
+* CSS styles: https://www.w3schools.com/css
+* Service worker: https://github.com/facebook/create-react-app/issues/2396
+* Links in the below default instrutions
+
+*********************************************************************************************
+
 
 
 ###Default instructions======================================================================

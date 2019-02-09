@@ -8,10 +8,12 @@ export class GoogleMapContainer extends Component {
         const mapStyles = MapStyles;
         const selectedPlace = this.props.places.filter(place => this.props.selectedPlace.title === place.name)[0]
         //console.log('selectedPlace', selectedPlace);
-        const photos = this.props.photos;
+        //const photos = this.props.photos;
+        //console.log(this.props.places);
+        //console.log(this.props.photos);
         //console.log('this', this.props.photos);
 
-        //// Will be used later to play with the marker colors
+        //// TODO * Will be used later to play with the marker colors
         //// Style the markers PERSONALIZE
         //var defaultIcon = makeMarkerIcon('0091ff');
         //// Highlight when hovering over PERSONALIZE
@@ -31,7 +33,6 @@ export class GoogleMapContainer extends Component {
 
         return (
             <Map
-                role="map"
                 aria-label="Map container with Google map"
                 google={this.props.google}
                 zoom={12}
@@ -67,7 +68,7 @@ export class GoogleMapContainer extends Component {
 
                         {this.props.searchPlaces[selectedPlace.name]}
                         <h2 tabIndex="0" className={"info"}>{selectedPlace.name}</h2>
-                        <a href={selectedPlace.wikiLink}>More info from Wikipedia</a>
+                        <a href={selectedPlace.wikiLink}>More info on Wikipedia</a>
                         <p tabIndex="0">Flickr owner number: <em>{this.props.photoOwners[selectedPlace.name]}</em></p>
                         {this.props.photos[selectedPlace.name]}
                     </div> : <div></div>}
