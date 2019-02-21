@@ -67,7 +67,7 @@ class App extends Component {
                     const srcPath = `https://farm${photo.farm}.staticflickr.com/${photo.server}/${photo.id}_${photo.secret}.jpg`;
                     photo.src = srcPath;
                     //console.log(srcPath);
-                    photos[place.title] = (<img className="info-image" key={photo.title} alt={photo.title} src={srcPath}></img>);
+                    photos[place.title] = (<img className="info-image" key={photo.title} alt={photo.title} src={srcPath} tabIndex="3"></img>);
                     photoOwners[place.title] = photo.owner;
                     component.setState({ photos: photos, photoOwners: photoOwners });
                     return (<img alt={photo.title} src={photo.src} />);
