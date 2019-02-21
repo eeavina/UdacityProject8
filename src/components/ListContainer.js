@@ -13,7 +13,7 @@ class ListContainer extends Component {
             <div role="region" aria-label="Search panel region" className="list-container">
                 <section aria-label="Section of the region">
                     <h2>{this.state.title}</h2>
-                    <input role="search" aria-label="Text input for search" onChange={e => this.props.searchPlaces(e.target.value)} type="text" placeholder="Search for baths" />
+                    <input role="search" aria-label="Text input for search" tabindex="1" onChange={e => this.props.searchPlaces(e.target.value)} type="text" placeholder="Search for baths" />
                 </section>
                 <section aria-label="Section of the region">
                     {/* Might work on it later and add it to the application*/}
@@ -26,7 +26,7 @@ class ListContainer extends Component {
                             places.map(place => {
                                 return (
                                     <div role="list" aria-label="Button list" key={place.name} className="bath">
-                                        <button aria-label="Button to turn on markers" className="bath" onClick={e => this.props.onButtonClick(place)}>{place.name}</button>
+                                        <button aria-label="Button to turn on markers" className="bath" tabIndex="2" onClick={e => this.props.onButtonClick(place)}>{place.name}</button>
                                     </div>
                                 )
                             })

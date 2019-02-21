@@ -34,6 +34,7 @@ export class GoogleMapContainer extends Component {
         return (
             <Map
                 aria-label="Map container with Google map"
+                tabIndex="999"
                 google={this.props.google}
                 zoom={12}
                 styles={mapStyles}
@@ -47,7 +48,6 @@ export class GoogleMapContainer extends Component {
                     return (
                         <Marker
                             aria-label="Marker"
-                            tabIndex="0"
                             onClick={this.props.onMarkerClick}
                             key={place.id}
                             position={place.latlng}
@@ -58,7 +58,7 @@ export class GoogleMapContainer extends Component {
                 }
                 <InfoWindow
                     aria-label="info"
-                    tabIndex="0"
+                    tabIndex="3"
                     onClose={this.onInfoWindowClose}
                     style={require('../App.css')}
                     marker={this.props.activeMarker}
@@ -67,9 +67,9 @@ export class GoogleMapContainer extends Component {
                     {selectedPlace ? < div className={"info"} aria-label={"Location information window"}>
 
                         {this.props.searchPlaces[selectedPlace.name]}
-                        <h2 tabIndex="0" className={"info"}>{selectedPlace.name}</h2>
-                        <a href={selectedPlace.wikiLink}>More info on Wikipedia</a>
-                        <p tabIndex="0">Flickr owner number: <em>{this.props.photoOwners[selectedPlace.name]}</em></p>
+                        <h2 tabIndex="3" className={"info"}>{selectedPlace.name}</h2>
+                        <a tabIndex="3" href={selectedPlace.wikiLink}>More info on Wikipedia</a>
+                        <p tabIndex="3">Flickr owner number: <em>{this.props.photoOwners[selectedPlace.name]}</em></p>
                         {this.props.photos[selectedPlace.name]}
                     </div> : <div></div>}
                 </InfoWindow>

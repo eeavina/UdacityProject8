@@ -106,7 +106,7 @@ class App extends Component {
                         searchPlaces={this.searchPlaces}
                     />
                 </main>
-                <footer aria-label="Footer containing link to Google Dev Platform"><p>See more <a href="https://cloud.google.com/maps-platform/">Google Maps Dev</a> ideas here</p></footer>
+                <footer aria-label="Footer containing link to Google Dev Platform"><p>See more <a tabIndex="4" href="https://cloud.google.com/maps-platform/">Google Maps Dev</a> ideas here</p></footer>
             </div>
         );
     }
